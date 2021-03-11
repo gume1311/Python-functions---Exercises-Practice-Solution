@@ -37,7 +37,10 @@ def prime-test(n):
         return False
     elif (n==2):
         return True;
-              
+             for n in range(2,n):
+            if(n % n==0):
+                return False
+        return True            
 print(prime-test(3))
 
 ```
