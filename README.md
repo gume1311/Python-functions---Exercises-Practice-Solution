@@ -11,9 +11,18 @@ def reverse(s):
 ```
 
 ## 2.-create a function that returns 0 if both have the same length and 1 if is different.
+```python
+def no(l1, l2):
+    if not l1 and not l2:
+        return True
 
+    if len(l1) != len(l2):
+        return (0)
+ elif (no)
 
-
+   
+    return no(l1, l2)
+```
 
 
 ## 6. Write a Python function to check whether a number is in a given range. 
