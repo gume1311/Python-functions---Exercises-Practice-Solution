@@ -27,7 +27,7 @@ def reverse(s):
  return(0)
  
  ```
-##7. Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters. 
+## 7. Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters. 
 ```python
 
 def string_test(s):
@@ -45,7 +45,7 @@ def string_test(s):
 
 ```
 
-##9. Write a Python function that takes a number as a parameter and check the number is prime or not.
+## 9. Write a Python function that takes a number as a parameter and check the number is prime or not.
 
 ```python
 
