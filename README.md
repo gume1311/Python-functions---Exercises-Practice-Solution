@@ -23,7 +23,21 @@ def no(l1, l2):
    
     return no(l1, l2)
 ```
+## 4.-create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
+```python
+igual, aux = 0, 0
+texto = input("Ingrese la palabra que desea evaluar: ")
+for ind in reversed(range(0, len(texto))):
+  if texto[ind].lower() == texto[aux].lower():
+    igual += 1
+  aux += 1
+if len(texto) == igual:
+  print("El texto es palindromo!")
+else:
+  print("El texto no es palindromo!")
 
+
+```
 
 ## 6. Write a Python function to check whether a number is in a given range. 
  ```python
