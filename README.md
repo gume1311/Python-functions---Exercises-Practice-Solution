@@ -1,6 +1,8 @@
 # Functions 1
 
-## 1.-create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
+
+## In a folder labeled as "functions1" inside github upload the next scripts (the scripts must run in repl.it ) NOTE: just upload the link to your github folder (2 points each one) 
+### 1.-create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
 
 ```python
 def reverse(s): 
@@ -10,7 +12,7 @@ def reverse(s):
   return str
 ```
 
-## 2.-create a function that returns 0 if both have the same length and 1 if is different.
+### 2.-create a function that returns 0 if both have the same length and 1 if is different.
 ```python
 def no(l1, l2):
     if not l1 and not l2:
@@ -23,7 +25,7 @@ def no(l1, l2):
    
     return no(l1, l2)
 ```
-## 4.-create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
+### 4.-create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
 ```python
 igual, aux = 0, 0
 text = input("Enter the word you want to evaluater: ")
@@ -38,7 +40,7 @@ else:
 
 ```
 
-## 5.-create a function where you enter a string of 30 chars and print only the consonants
+### 5.-create a function where you enter a string of 30 chars and print only the consonants
 
 ```python
 def countCharacterType(str): 
