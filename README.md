@@ -1,4 +1,4 @@
-# Python-functions---Exercises-Practice-Solution
+# Functions 1
 ##6. Write a Python function to check whether a number is in a given range. 
  ```python
  
