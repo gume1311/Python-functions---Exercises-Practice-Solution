@@ -1,4 +1,21 @@
 # Functions 1
+
+##1.-create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
+
+```python
+def reverse(s): 
+  str = "" 
+  for i in s: 
+    str = i + str
+  return str
+```
+
+##2.-create a function that returns 0 if both have the same length and 1 if is different.
+
+
+
+
+
 ##6. Write a Python function to check whether a number is in a given range. 
  ```python
  
