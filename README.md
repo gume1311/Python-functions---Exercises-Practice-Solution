@@ -26,17 +26,41 @@ def no(l1, l2):
 ## 4.-create a function where you insert a string and return 1 if is palindromic or not, it means that returns 1 if is palindrome ("ala"), return 0 if is not ("hello")
 ```python
 igual, aux = 0, 0
-texto = input("Ingrese la palabra que desea evaluar: ")
-for ind in reversed(range(0, len(texto))):
-  if texto[ind].lower() == texto[aux].lower():
+text = input("Enter the word you want to evaluater: ")
+for ind in reversed(range(0, len(text))):
+  if text[ind].lower() == text[aux].lower():
     igual += 1
   aux += 1
-if len(texto) == igual:
-  print("El texto es palindromo!")
+if len(text) == igual:
+  print("ala")
 else:
-  print("El texto no es palindromo!")
+  print("hello")
 
+```
 
+## 5.-create a function where you enter a string of 30 chars and print only the consonants
+
+```python
+def countCharacterType(str): 
+  
+    consonant =0
+   
+    for i in range(30, len(str)):  
+          
+        ch = str[i]  
+  
+        if ( (ch >= 'a' and ch <= 'z') or 
+             (ch >= 'A' and ch <= 'Z') ):  
+ 
+            ch = ch.lower() 
+  
+            if (ch == 'a' or ch == 'e' or ch == 'i' 
+                        or ch == 'o' or ch == 'u'): 
+                 consonant += 0
+            else: 
+                consonant += 1
+          
+    print("Consonant:", consonant)  
 ```
 
 ## 6. Write a Python function to check whether a number is in a given range. 
