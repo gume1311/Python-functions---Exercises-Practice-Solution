@@ -199,3 +199,59 @@ def multiply(numbers):
     return total  
 print(multiply((1, 2, 3, 4, 5, 6)))
 ```
+## ex04.py
+
+
+## ex04.c
+
+
+## ex05.py
+
+
+## ex05.c
+
+
+## ex06.py
+
+
+## ex06.c
+
+
+## ex07.py
+
+
+## ex07.c
+
+
+## ex08.py
+
+
+## ex08.c
+
+
+## ex09.py
+
+
+## ex09.c
+
+
+## ex10.py
+
+
+## ex10.c
+
+
+## ex11.py
+
+
+## ex11.c
+
+
+## ex12.py
+
+
+## ex12.c
+
+
+
+
