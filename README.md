@@ -171,15 +171,72 @@ print(multiply((1, 2, 3, 4, 5, 6)))
 ```
 ## ex04.py
 ```python
+def string_reverse(str1):
+
+    rstr1 = ''
+    index = len(str1)
+    while index > 0:
+        rstr1 += str1[ index - 1 ]
+        index = index - 1
+    return rstr1
+print(string_reverse('1234abcd'))
 
 ```
 ## ex04.c
 ```c
+#include <iostream>
+#include <cstring>
 
+using namespace std;
+
+void inv (char cad[], int wide)
+{
+    int wide2=wide;
+    char inv[wide2];
+
+    for (int x=0, y=wide; x<wide && y>=0; x++, y--)
+    {
+        inv[x]=cadena[y];
+    }
+    cout<<"> "<<cadena<<endl;
+    cout<<endl<<"> "<<inv<<endl<<endl;
+    return;
+}
+
+int main ()
+{
+
+    char opcion;
+    string word;
+    int long, long2;
+
+    while (opcion!='n')
+    {
+        system ("cls");
+        cout<<"> Ejercicio 6"<<endl<<endl;
+        cout<<"> Ingrese una palabra: ";
+        cin>>palabra;
+        longitud=palabra.length();
+
+        char cadena[palabra.size()+1];
+        strcpy(cadena, palabra.c_str());
+
+        longitud2=strlen(cadena);
+
+        invertidor (cadena,long2);
+
+    return 0;
+}
 ```
 ## ex05.py
 ```python
-
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n=int(input("Input a number to compute the factiorial : "))
+print(factorial(n))
 ```
 
 ## ex05.c
@@ -252,7 +309,25 @@ print(prime-test(3))
 
 ## ex09.c
 ```c
-
+#include<stdio.h>  
+int main(){    
+int n,i,m=0,flag=0;    
+printf("Enter the number to check prime:");    
+scanf("%d",&n);    
+m=n/2;    
+for(i=2;i<=m;i++)    
+{    
+if(n%i==0)    
+{    
+printf("Number is not prime");    
+flag=1;    
+break;    
+}    
+}    
+if(flag==0)    
+printf("Number is prime");     
+return 0;  
+ }    
 ```
 
 ## ex10.py
@@ -267,11 +342,39 @@ print(prime-test(3))
 
 ## ex11.py
 ```python
-
+def perfect_number(n):
+    sum = 0
+    for x in range(1, n):
+        if n % x == 0:
+            sum += x
+    return sum == n
+print(perfect_number(6))
 ```
 
 ## ex11.c
 ```c
+# include <stdio.h>   
+
+int main()   
+{   
+ int i, Number, Sum = 0 ;   
+  
+ printf("\n Please Enter any number \n") ;   
+ scanf("%d", &Number) ;   
+ 
+ for(i = 1 ; i < Number ; i++)   
+  {   
+   if(Number % i == 0)   
+     Sum = Sum + i ;   
+  }    
+
+ if (Sum == Number)   
+    printf("\n %d is a Perfect Number", Number) ;   
+ else   
+    printf("\n%d is not the Perfect Number", Number) ;   
+
+return 0 ;   
+}
 
 ```
 
