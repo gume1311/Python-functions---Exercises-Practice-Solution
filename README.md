@@ -110,4 +110,41 @@ def prime-test(n):
 print(prime-test(3))
 
 ```
+# The second part is from this week: In another folder "functions2" upload your version of the python and C versions of the first 12 examples in the page https://www.w3resource.com/python-exercises/python-functions-exercises.php labeled as "ex01.c" or "ex01.py", the C versions hold for 1 point and the python versions hold for 1 point each one. 
 
+## ex01.c
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+biggestNumber(int,int,int);
+int main()
+{
+    int a,b,c;
+    printf("Enter the three numbers\n");
+    scanf("%d%d%d",&a,&b,&c);
+//read the numbers from user
+    int result=biggestNumber(a,b,c);//function call
+    printf("Biggest number is: %d\n",result);
+//display the output on the screen
+    getch();
+    return 0;
+}
+int biggestNumber(int a,int b,int c){//function definition with parameter
+if(a>b)
+{
+    if(a>c)
+    return a;
+    else
+        return c;
+}
+else
+{
+    if(b>c)
+        return b;
+    else
+        return c;
+}
+}
+
+```
