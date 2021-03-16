@@ -65,51 +65,8 @@ def countCharacterType(str):
     print("Consonant:", consonant)  
 ```
 
-## 6. Write a Python function to check whether a number is in a given range. 
- ```python
- 
- def test_range(n):
-    if n in range(1,11):
-        print( " %s is in the range"(n))
-    else :
-        print("The number is outside the range.")
- return(0)
- 
- ```
-## 7. Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters. 
-```python
 
-def string_test(s):
-    d={"upper":0, "lower":0}
-    for l in s:
-        if l.isupper():
-           d["upper"]+=1
-        elif c.islower():
-           d["lower"]+=1
-        else:
-           pass
-    print ("Original String is  : ", s)
-    print ("No. of Upper characters : ", d["upper"])
-    print ("No. of Lower Characters : ", d["lower"])
 
-```
-
-## 9. Write a Python function that takes a number as a parameter and check the number is prime or not.
-
-```python
-
-def prime-test(n):
-    if (n==1):
-        return False
-    elif (n==2):
-        return True;
-             for s in range(2,n):
-            if(n % s==0):
-                return False
-        return True            
-print(prime-test(3))
-
-```
 # The second part is from this week: In another folder "functions2" upload your version of the python and C versions of the first 12 examples in the page https://www.w3resource.com/python-exercises/python-functions-exercises.php labeled as "ex01.c" or "ex01.py", the C versions hold for 1 point and the python versions hold for 1 point each one. 
 
 ## ex01.c
@@ -232,7 +189,12 @@ print(multiply((1, 2, 3, 4, 5, 6)))
 
 ## ex06.py
 ```python
-
+def test_range(n):
+    if n in range(1,11):
+        print( " %s is in the range"(n))
+    else :
+        print("The number is outside the range.")
+ return(0)
 ```
 
 ## ex06.c
@@ -242,6 +204,20 @@ print(multiply((1, 2, 3, 4, 5, 6)))
 
 ## ex07.py
 ```python
+def string_test(s):
+    d={"upper":0, "lower":0}
+    for l in s:
+        if l.isupper():
+           d["upper"]+=1
+        elif c.islower():
+           d["lower"]+=1
+        else:
+           pass
+    print ("Original String is  : ", s)
+    print ("No. of Upper characters : ", d["upper"])
+    print ("No. of Lower Characters : ", d["lower"])
+
+```
 
 ```
 
@@ -262,7 +238,16 @@ print(multiply((1, 2, 3, 4, 5, 6)))
 
 ## ex09.py
 ```python
-
+def prime-test(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+             for s in range(2,n):
+            if(n % s==0):
+                return False
+        return True            
+print(prime-test(3))
 ```
 
 ## ex09.c
