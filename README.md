@@ -380,7 +380,33 @@ return 0 ;
 
 ## ex12.py
 ```python
+int i;
+  int len=strlen(string);
+  for(i=len-1; i>=0; i--){
+    if(string[len-i-1]!=string[i]){
+      return 0;
+    }
+  }
+  return 1;
+}
 
+int function1(char string[MAX])
+{
+  int length1 = strlen()
+}
+
+
+int main(void) {
+  char mystring1[MAX] = "This is a string";
+  char mystring2[MAX] = "a string";
+  printf("the value for string 1 is %lu and len10 result is %d \n",strlen(mystring1),len10(mystring1));
+  printf("the value for string 2 is %lu and len10 result is %d \n",strlen(mystring2),len10(mystring2));
+
+  reverse_string(mystring1);
+  printf("the value of palindrome is %d\n",palindrome("01210"));
+
+  return 0;
+}
 ```
 
 ## ex12.c
