@@ -157,5 +157,45 @@ print(max_of_three(1, 2, 3))
 ## ex02.c
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+ 
 
+int sum(int arr[], int n)
+{
+    int sum = 0; 
+ 
+   
+    for (int i = 0; i < n; i++)
+    sum += arr[i];
+ 
+    return sum;
+}
+ 
+```
+## ex02.py
+
+```python
+def sum(numbers):
+    total = 0
+    for x in numbers:
+        total += x
+    return total
+print(sum((numbers)))
+
+```
+
+## ex03.c
+```c
+
+```
+
+## ex03.py
+```python
+def multiply(numbers):  
+    total = 1
+    for x in numbers:
+        total *= x  
+    return total  
+print(multiply((1, 2, 3, 4, 5, 6)))
 ```
