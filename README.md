@@ -187,9 +187,22 @@ print(sum((numbers)))
 
 ## ex03.c
 ```c
+#include <stdio.h>
 
+int main()
+{
+    int i, num;
+
+    do
+    {
+        printf( "\n  Enter a whole number: ", 163 );
+        scanf( "%d", &numero )
+
+        for ( i = 1 ; i <= 10 ; i++ )
+            printf( "\n   %d * %d = %d", i, num, i * num );
+    return 0;
+}
 ```
-
 ## ex03.py
 ```python
 def multiply(numbers):  
@@ -200,58 +213,92 @@ def multiply(numbers):
 print(multiply((1, 2, 3, 4, 5, 6)))
 ```
 ## ex04.py
+```python
 
-
+```
 ## ex04.c
+```c
 
-
+```
 ## ex05.py
+```python
 
+```
 
 ## ex05.c
+```c
 
+```
 
 ## ex06.py
+```python
 
+```
 
 ## ex06.c
+```c
 
+```
 
 ## ex07.py
+```python
 
+```
 
 ## ex07.c
+```c
 
+```
 
 ## ex08.py
+```python
 
+```
 
 ## ex08.c
+```c
 
+```
 
 ## ex09.py
+```python
 
+```
 
 ## ex09.c
+```c
 
+```
 
 ## ex10.py
+```python
 
+```
 
 ## ex10.c
+```c
 
+```
 
 ## ex11.py
+```python
 
+```
 
 ## ex11.c
+```c
 
+```
 
 ## ex12.py
+```python
 
+```
 
 ## ex12.c
+```c
 
+```
 
 
 
