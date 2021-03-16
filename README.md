@@ -123,14 +123,9 @@ int main()
     int a,b,c;
     printf("Enter the three numbers\n");
     scanf("%d%d%d",&a,&b,&c);
-//read the numbers from user
-    int result=biggestNumber(a,b,c);//function call
-    printf("Biggest number is: %d\n",result);
-//display the output on the screen
-    getch();
-    return 0;
-}
-int biggestNumber(int a,int b,int c){//function definition with parameter
+
+ 
+int biggestNumber(int a,int b,int c){
 if(a>b)
 {
     if(a>c)
@@ -146,5 +141,21 @@ else
         return c;
 }
 }
+
+```
+## ex01.py
+
+```python
+def max_of_two( a, b ):
+    if a > b:
+        return a
+    return b
+def max_of_three( a, b, c ):
+    return max_of_two( a, max_of_two( b, c ) )
+print(max_of_three(1, 2, 3))
+```
+## ex02.c
+
+```c
 
 ```
